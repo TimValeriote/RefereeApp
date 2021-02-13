@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.refereeapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_allgames"
+        android:name="com.example.refereeapp.ui.games.allGames"
+        android:label="All Games"
+        tools:layout="@layout/fragment_allgames" />
+    <fragment
+        android:id="@+id/nav_newgame"
+        android:name="com.example.refereeapp.ui.games.newGame"
+        android:label="New Game"
+        tools:layout="@layout/fragment_newgame"/>
+</navigation>

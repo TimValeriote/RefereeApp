@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561361598958",
+    "project_id": "refereeapp-b27b6",
+    "storage_bucket": "refereeapp-b27b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561361598958:android:9912f82f45825366f1b6ff",
+        "android_client_info": {
+          "package_name": "com.example.refereeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561361598958-raptkh1iocbkd65cqak27lk2t79ceo4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB63TcANc7RYHhJPuX0e96N3QWg0xg7odc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561361598958-raptkh1iocbkd65cqak27lk2t79ceo4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
