@@ -77,9 +77,8 @@ public class newGame extends Fragment {
                 int i = Integer.parseInt(pay.getText().toString());
                 System.out.println(stringDate);
                 Date temp = getDateFromString(stringDate);
-                Game game = new Game(location.getText().toString(),league.getText().toString(),i,position.getSelectedItem().toString(),
+                Game game = new Game(temp,location.getText().toString(),league.getText().toString(),i,position.getSelectedItem().toString(),
                     ref2.getText().toString(),ref3.getText().toString(),ref4.getText().toString());
-                game.setDateTime(temp);
                 db.collection("users").document(loginEmail).collection("games").add(game).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                     @Override
                     public void onSuccess(DocumentReference documentReference) {

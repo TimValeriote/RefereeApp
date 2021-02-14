@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">refereeApp</string>
     <string name="title_activity_main_page">mainPage</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
+    <string-array name="gameDetails">
+        <item>Date: </item>
+        <item>Time: </item>
+        <item>League: </item>
+        <item>Location: </item>
+        <item>Pay: </item>
+        <item>Position: </item>
+        <item>Other Refs: </item>
+    </string-array>
 </resources>

@@ -5,17 +5,18 @@ import java.util.Date;
 
 public class Game {
     private Date dateTime;
-    private String location;
     private String league;
+    private String location;
     private int pay;
     private String position;
     private String ref2;
     private String ref3;
     private String ref4;
 
-    public Game(String gameLocation,String gameLeague,int gamePay,String gamePosition,String gameRef2,String gameRef3,String gameRef4){
-        this.location = gameLocation;
+    public Game(Date gameDate,String gameLeague,String gameLocation,int gamePay,String gamePosition,String gameRef2,String gameRef3,String gameRef4){
+        this.dateTime = gameDate;
         this.league = gameLeague;
+        this.location = gameLocation;
         this.pay = gamePay;
         this.position = gamePosition;
         this.ref2 = gameRef2;
@@ -24,7 +25,6 @@ public class Game {
     }
 
     public Game(){}
-
     public void setDateTime(Date inputDate){this.dateTime = inputDate; }
     public Date getDate(){
         return dateTime;
@@ -49,5 +49,8 @@ public class Game {
     }
     public String getRef4(){
         return ref4;
+    }
+    public String getAllRefs(){
+        return ref2 + " " + ref3 + " " + ref4;
     }
 }
